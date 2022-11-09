@@ -1,7 +1,8 @@
 import React from 'react';
+import Services from '../../Services/Services';
 // import About from '../About/About';
 import Banner from '../Banner/Banner';
-// import Services from '../Services/Services';
+
 
 const Home = () => {
     return (
@@ -9,7 +10,7 @@ const Home = () => {
             Home
             <Banner></Banner>
             {/* <About></About> */}
-            {/* <Services></Services> */}
+            <Services></Services>
         </div>
     );
 };
