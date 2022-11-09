@@ -1,157 +1,151 @@
 [
     {
-        "_id": "635a0c0b64a6d231228942ae",
         "service_id": "04",
-        "title": "Engine Oil Change",
-        "img": "https://i.ibb.co/T2cpBd5/888.jpg",
+        "title": "Food Delivery",
+        "img": "https://img.freepik.com/free-vector/food-delivery-logo-with-bike-man-courier_1308-48914.jpg?w=2000",
         "price": "20.00",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
+        "description": "Would you like millions of new customers to enjoy your amazing food and groceries? So would we! It's simple: we list your menu and product lists online, help you process orders, pick them up, and deliver them to hungry pandas – in a heartbeat! Interested? Let's start our partnership today!",
         "facility": [
             {
-                "name": "Instant Car Services",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+                "name": "Delivery or Pickup (Takeaway) ",
+                "details": " You can configure to accept both delivery or takeaways orders"
             },
             {
-                "name": "24/7 Quality Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+                "name": "Distance Restrictions. ",
+                "details": "You can set a maximum delivery distance based on km/miles using Google API’s , design your delivery area set only the postal codes you are delivering too."
             },
             {
-                "name": "Easy Customer Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+                "name": "Automatic or Live Manual Order Acceptance.",
+                "details": "By default all food orders are automatically accepted. However you have the option to enable the manual Live Accept/Decline option  to accept or reject orders in live mode while the same time you are informing also the customer with the approximate delivery time ."
             },
             {
-                "name": "Quality Cost Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+                "name": "Delivery Fee",
+                "details": "You can also set a fixed Delivery Fee or even dynamic delivery fee based on Distance .Delivery Fee can be also changed using custom filters for more extensibility based on your needs"
             }
         ]
     },
     {
-        "_id": "635a0c0b64a6d231228942af",
         "service_id": "05",
-        "title": "Battery Charge",
-        "img": "https://i.ibb.co/ydCbDN3/5555.jpg",
-        "price": "20.00",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
+        "title": "Courier Service",
+        "img": "https://prod-media-eng.dhakatribune.com/uploads/2021/06/pathao-tong-1585128259698-1623691413280.jpg",
+        "price": "500.00",
+        "description": "Under this service, deliveries are provided at the doorstep of any customers of their daily life to meet their everyday necessities. Please find below the rate chart of regularly delivered item. In the booking mode there are both cash based deliveries in advance and cash based payment upon delivery at site.",
         "facility": [
             {
-                "name": "Instant Car Services",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+                "name": "Delivery or Pickup (Takeaway) ",
+                "details": " You can configure to accept both delivery or takeaways orders"
             },
             {
-                "name": "24/7 Quality Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+                "name": "Distance Restrictions. ",
+                "details": "You can set a maximum delivery distance based on km/miles using Google API’s , design your delivery area set only the postal codes you are delivering too."
             },
             {
-                "name": "Easy Customer Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+                "name": "Automatic or Live Manual Order Acceptance.",
+                "details": "By default all food orders are automatically accepted. However you have the option to enable the manual Live Accept/Decline option  to accept or reject orders in live mode while the same time you are informing also the customer with the approximate delivery time ."
             },
             {
-                "name": "Quality Cost Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+                "name": "Delivery Fee",
+                "details": "You can also set a fixed Delivery Fee or even dynamic delivery fee based on Distance .Delivery Fee can be also changed using custom filters for more extensibility based on your needs"
             }
         ]
     },
     {
-        "_id": "635b591a1dafe382a9da8c96",
         "service_id": "01",
-        "title": "Full car Repair",
-        "img": "https://i.ibb.co/R6Z2nFM/55.jpg",
-        "price": "200.00",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
+        "title": "Book Delivery Service",
+        "img": "https://belmontpubliclibrary.net/wp-content/uploads/2018/05/featured-image-1.png",
+        "price": "70.00",
+        "description": "Our mission is to help people find and buy any book from any bookseller and our business stretches around the county. The unique inventory of books for sale from booksellers includes the country’s and world’s finest antiquarian books dating back to the 15th century, countless out-of-print gems, millions of signed books, millions of used copies, a vast selection of college textbooks and new books too.",
         "facility": [
             {
-                "name": "Instant Car Services",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+                "name": "Delivery or Pickup (Takeaway) ",
+                "details": " You can configure to accept both delivery or takeaways orders"
             },
             {
-                "name": "24/7 Quality Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+                "name": "Distance Restrictions. ",
+                "details": "You can set a maximum delivery distance based on km/miles using Google API’s , design your delivery area set only the postal codes you are delivering too."
             },
             {
-                "name": "Easy Customer Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+                "name": "Automatic or Live Manual Order Acceptance.",
+                "details": "By default all food orders are automatically accepted. However you have the option to enable the manual Live Accept/Decline option  to accept or reject orders in live mode while the same time you are informing also the customer with the approximate delivery time ."
             },
             {
-                "name": "Quality Cost Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+                "name": "Delivery Fee",
+                "details": "You can also set a fixed Delivery Fee or even dynamic delivery fee based on Distance .Delivery Fee can be also changed using custom filters for more extensibility based on your needs"
             }
         ]
     },
     {
-        "_id": "635b5afc1dafe382a9da8c98",
         "service_id": "02",
-        "title": "Engine Repair",
-        "img": "https://i.ibb.co/5MvmD2g/88.jpg",
+        "title": "Stationery Delivery Service",
+        "img": "https://graphicriver.img.customer.envatousercontent.com/files/280502539/preview.jpg?auto=compress%2Cformat&q=80&fit=crop&crop=top&max-h=8000&max-w=590&s=c8f76f5175fec837e3257786a8671771",
         "price": "150.00",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
+        "description": "Buy stationery items at great price from bigbasket - online stationery store near me. Find the best notebooks, pen, pencils, glue, crayons and save big on",
         "facility": [
             {
-                "name": "Instant Car Services",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+                "name": "Delivery or Pickup (Takeaway) ",
+                "details": " You can configure to accept both delivery or takeaways orders"
             },
             {
-                "name": "24/7 Quality Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+                "name": "Distance Restrictions. ",
+                "details": "You can set a maximum delivery distance based on km/miles using Google API’s , design your delivery area set only the postal codes you are delivering too."
             },
             {
-                "name": "Easy Customer Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+                "name": "Automatic or Live Manual Order Acceptance.",
+                "details": "By default all food orders are automatically accepted. However you have the option to enable the manual Live Accept/Decline option  to accept or reject orders in live mode while the same time you are informing also the customer with the approximate delivery time ."
             },
             {
-                "name": "Quality Cost Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+                "name": "Delivery Fee",
+                "details": "You can also set a fixed Delivery Fee or even dynamic delivery fee based on Distance .Delivery Fee can be also changed using custom filters for more extensibility based on your needs"
             }
         ]
     },
     {
-        "_id": "635b5b691dafe382a9da8c99",
         "service_id": "03",
-        "title": "Automatic Services",
-        "img": "https://i.ibb.co/wh7t3N3/555.jpg",
+        "title": "Gadgets Delivery Service",
+        "img": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTsQpJKffbxTfn8phCEpGzbn6qZk6RUScKpXmf9M5XFMjs_x3h_",
         "price": "30.00",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
+        "description": "Electronic gadgets internet shop with delivery online service. loader putting packages on truck. targeted transportation to location destination. buy button on",
         "facility": [
             {
-                "name": "Instant Car Services",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+                "name": "Delivery or Pickup (Takeaway) ",
+                "details": " You can configure to accept both delivery or takeaways orders"
             },
             {
-                "name": "24/7 Quality Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+                "name": "Distance Restrictions. ",
+                "details": "You can set a maximum delivery distance based on km/miles using Google API’s , design your delivery area set only the postal codes you are delivering too."
             },
             {
-                "name": "Easy Customer Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+                "name": "Automatic or Live Manual Order Acceptance.",
+                "details": "By default all food orders are automatically accepted. However you have the option to enable the manual Live Accept/Decline option  to accept or reject orders in live mode while the same time you are informing also the customer with the approximate delivery time ."
             },
             {
-                "name": "Quality Cost Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+                "name": "Delivery Fee",
+                "details": "You can also set a fixed Delivery Fee or even dynamic delivery fee based on Distance .Delivery Fee can be also changed using custom filters for more extensibility based on your needs"
             }
         ]
     },
     {
-        "_id": "635b5ba51dafe382a9da8c9a",
         "service_id": "06",
-        "title": "Electrical System",
-        "img": "https://i.ibb.co/KzCG8qr/8888.jpg",
-        "price": "20.00",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
+        "title": "Medicine Delivery Service",
+        "img": "https://www.enukesoftware.com/blog/wp-content/uploads/2017/02/pharmacist-gives-bag-with-antibiotic-drugs-according-recipe-hands-patient-pharmacy-vector-concept_53562-7866-1200x900.jpg",
+        "price": "200.00",
+        "description": "Easy and efficient. With a click of a button, upload your prescription and we will ensure safe delivery of your medicine at earliest possible time.",
         "facility": [
             {
-                "name": "Instant Car Services",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+                "name": "Delivery or Pickup (Takeaway) ",
+                "details": " You can configure to accept both delivery or takeaways orders"
             },
             {
-                "name": "24/7 Quality Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+                "name": "Distance Restrictions. ",
+                "details": "You can set a maximum delivery distance based on km/miles using Google API’s , design your delivery area set only the postal codes you are delivering too."
             },
             {
-                "name": "Easy Customer Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+                "name": "Automatic or Live Manual Order Acceptance.",
+                "details": "By default all food orders are automatically accepted. However you have the option to enable the manual Live Accept/Decline option  to accept or reject orders in live mode while the same time you are informing also the customer with the approximate delivery time ."
             },
             {
-                "name": "Quality Cost Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+                "name": "Delivery Fee",
+                "details": "You can also set a fixed Delivery Fee or even dynamic delivery fee based on Distance .Delivery Fee can be also changed using custom filters for more extensibility based on your needs"
             }
         ]
     }
