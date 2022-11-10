@@ -1,14 +1,33 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../../../assets/delivery-service-logo-template-vector-20477137.jpg';
+import { AuthContext } from '../../../contexts/AuthProvider/AuthProvider';
 import './Header.css';
 
 const Header = () => {
+    const { user, logOut } = useContext(AuthContext);
+    const handleLogOut = () => {
+        logOut()
+            .then()
+            .catch();
+    }
 
     const menuItems = <>
         <li className='font-semibold'><Link to='/'>Home</Link></li>
-        <li className='font-semibold'><Link to='/login'>Login</Link></li>
         <li className='font-semibold'><Link to='/blogs'>Blogs</Link></li>
+        {
+            user?.email ?
+                <>
+                    <li className='font-semibold'><Link to='/orders'>My Reviews</Link></li>
+                    <li className='font-semibold'><Link to='/addservice'>Add Service</Link></li>
+                    <li className='font-semibold'>
+                        <button onClick={handleLogOut} className='btn-ghost'>Sign Out</button>
+                    </li>
+
+                </>
+                :
+                <li className='font-semibold'><Link to='/login'>Login</Link></li>
+        }
     </>
 
     return (
@@ -32,9 +51,9 @@ const Header = () => {
                     {menuItems}
                 </ul>
             </div>
-            <div className="navbar-end">
+            {/* <div className="navbar-end">
                 <button className="btn btn-outline btn-warning">Appointment</button>
-            </div>
+            </div> */}
         </div>
     );
 };

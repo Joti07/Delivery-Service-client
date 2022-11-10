@@ -14,11 +14,11 @@ const BannerItem = ({ slide }) => {
                     DELIVERY <br />
                     SERVICE
                 </h1>
-                <h3 className='text-2xl font-bold text-white my-5 '>You Stay At Home, We deliver</h3>
+                <h3 className='text-2xl font-bold text-white my-5 '>You Stay At Home, I will deliver</h3>
             </div>
             <div className="absolute flex justify-end transform -translate-y-1/2 w-2/5 left-24 top-1/2">
                 <p className='text-xl text-white'>On-demand delivery :
-                    We make moving things from one place to another easy, fast and affordable</p>
+                    Aim is to make moving things from one place to another easy, fast and affordable</p>
             </div>
             {/* <div className="absolute flex justify-start transform -translate-y-1/2 w-2/5 left-24 top-3/4">
                 <button className="btn btn-warning mr-5">Warning</button>

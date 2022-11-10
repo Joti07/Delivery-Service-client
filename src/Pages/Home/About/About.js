@@ -16,10 +16,10 @@ const About = () => {
                         Reliable Deliveries <br />
                         Always Ontime. <br />
                         Everytime.</h1>
-                    <p className="py-6">Established in 2022 Delivery Services BD is now one of the most reliable courier service in Bangladesh. We are now a delivery one-stop-shop providing same day delivery and next day delivery for any professional company throughout Bangladesh. </p>
+                    <p className="py-6">Established in 2022 Delivery Services BD is now one of the most reliable courier service in Bangladesh.  Now a delivery one-stop-shop providing same day delivery and next day delivery for any professional company throughout Bangladesh. </p>
                     <p className="py-6">Customer Focused: Delivering on client commitment is our top priority.
                         Honesty: To be transparent, open & straightforward in all our dealings. </p>
-                    <button className="btn btn-primary">Get More Info</button>
+                    {/* <button className="btn btn-primary">Get More Info</button> */}
                 </div>
             </div>
         </div>

@@ -1,40 +1,36 @@
 import React, { useContext } from 'react';
 import { useLoaderData } from 'react-router-dom';
 import { AuthContext } from '../../contexts/AuthProvider/AuthProvider';
+import { useEffect } from 'react';
+import { useState } from 'react';
+import ReviewCard from './ReviewCard';
+import useTitle from '../../hooks/useTitle';
 
 const Checkout = () => {
-    const { _id, title, price } = useLoaderData();
+    const { _id, title, price, img, description, facility } = useLoaderData();
     const { user } = useContext(AuthContext);
-
+    useTitle('Service details - Delivery Service');
     const handlePlaceOrder = event => {
         event.preventDefault();
         const form = event.target;
-        const name = `${form.firstName.value} ${form.lastName.value}`;
+        const name = user?.name || 'unregistered';
         const email = user?.email || 'unregistered';
-        const phone = form.phone.value;
         const message = form.message.value;
 
         const order = {
             service: _id,
             serviceName: title,
-            price,
             customer: name,
             email,
-            phone,
             message
         }
 
-        // if(phone.length > 10){
-        //     alert('Phone number should be 10 characters or longer')
-        // }
-        // else{
 
-        // }
-
-        fetch('http://localhost:5000/orders', {
+        fetch('https://delivery-services-kappa.vercel.app/orders', {
             method: 'POST',
             headers: {
-                'content-type': 'application/json'
+                'content-type': 'application/json',
+                authorization: `Bearer ${localStorage.getItem('services-token')}`
             },
             body: JSON.stringify(order)
         })
@@ -51,21 +47,52 @@ const Checkout = () => {
 
 
     }
+    const [reviews, setReviews] = useState([]);
+
+    useEffect(() => {
+        fetch('https://delivery-services-kappa.vercel.app/orders')
+            .then(res => res.json())
+            .then(data => setReviews(data))
+    }, [])
 
     return (
         <div>
-            <form onSubmit={handlePlaceOrder}>
-                <h2 className="text-4xl">You are about to order: {title}</h2>
-                <h4 className="text-3xl">Price: {price}</h4>
-                <div className='grid grid-cols-1 lg:grid-cols-2 gap-4'>
-                    <input name="firstName" type="text" placeholder="First Name" className="input input-ghost w-full  input-bordered" />
-                    <input name="lastName" type="text" placeholder="Last Name" className="input input-ghost w-full  input-bordered" />
-                    <input name="phone" type="text" placeholder="Your Phone" className="input input-ghost w-full  input-bordered" required />
-                    <input name="email" type="text" placeholder="Your email" defaultValue={user?.email} className="input input-ghost w-full  input-bordered" readOnly />
-                </div>
-                <textarea name="message" className="textarea textarea-bordered h-24 w-full" placeholder="Your Message" required></textarea>
+            <div>
+                <h2 className='text-3xl'>Details Of the Service: {title}</h2>
+                <div className='block'>
+                    <div>
+                        <img className='h-64 mt-5 mb-10' src={img} alt="" />
+                    </div>
+                    <div className='ml-28 mb-28'>
+                        <p> <span className='font-bold '>Description:</span> {description}</p>
+                        <p> <span className='font-bold '>Price:</span> {price}</p>
+                        <h2 className='font-bold mb-5 mt-5 text-2xl'>Facilities: </h2>
+                        {
 
-                <input className='btn' type="submit" value="Place Your Order" />
+                            facility?.map(fac => <div>
+                                <p className='font-bold '>{fac.name}</p>
+                                <p>{fac.details}</p>
+                            </div>)
+                        }
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h2>All Reviews:</h2>
+                {
+
+                    reviews.filter(review => review.serviceName === title
+                    ).map(rev => <ReviewCard
+                        key={rev._id}
+                        rev={rev}
+                    ></ReviewCard>)
+
+                }
+            </div>
+            <form onSubmit={handlePlaceOrder}>
+                <h4 className="text-1xl">Add Your Review:</h4>
+                <textarea name="message" className="textarea textarea-bordered h-24 w-full" placeholder="Your Message" required></textarea>
+                <input className='btn m-5' type="submit" value="Submit" />
             </form>
         </div>
     );
