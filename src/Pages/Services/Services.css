@@ -1,0 +1,18 @@
+.pagination {
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+
+
+
+.pagination .selected {
+    background-color: cornflowerblue;
+    border: blue;
+    font-weight: bold;
+    width: 40px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 80px;
+    margin-left: 24em;
+    margin-top: 5em;
+}
