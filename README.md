@@ -1,3 +1,4 @@
+## [Live Link](https://delivery-services-22f9b.web.app/) | [Server Link](https://github.com/Joti07/Delivery-Service-server) 
 ## Delivery Services
 ### Details:
 This is a service review based project. You can add review on any service.
@@ -17,6 +18,6 @@ features:
 - Add Reviews 
 - Edit or Delete Reviews
 
-Live Link: https://delivery-services-22f9b.web.app/
+ 
 
-Server Link: https://github.com/Joti07/Delivery-Service-server
+
